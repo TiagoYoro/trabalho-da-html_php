@@ -1,0 +1,7 @@
+/* Global */
+@import "./global.css";
+
+@import "./header.css";
+
+/* Section */
+@import "./section.css";

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.header-container {
+  background-color: #27314b;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  margin: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  padding: 5px 10px; /* Adiciona espaçamento interno */
+}
+
+.backgroud img {
+  display: block; /* Remove o espaço em branco abaixo da imagem */
+  height: 80vh;
+  width: 100vw;
+}
+
+.frete {
+  width: 100vw;
+  height: 130px;
+  background-color: #27314b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+}
+
+.frete img:hover {
+  transform: rotate(-15deg);
+  transition: 0.3s;
+}

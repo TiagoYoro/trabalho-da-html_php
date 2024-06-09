@@ -1,0 +1,93 @@
+section {
+  background-color: #262525;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-store {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-store img {
+  height: 300px;
+  margin-top: 80px;
+  min-width: 720px;
+}
+
+.banner-store img:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+}
+
+/* Produtos Loja */
+.store-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #262525;
+  padding: 20px;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 200px;
+}
+
+.produto img:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.produto:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.produto,
+.produto2 {
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.produto img,
+.produto2 img {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.produto h2,
+.produto2 h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.produto h3,
+.produto2 h3 {
+  font-size: 16px;
+  color: #666;
+}
+
+.produto h5,
+.produto2 h5 {
+  font-size: 14px;
+  color: green;
+}
+
+.produto h1,
+.produto2 h1 {
+  font-size: 24px;
+  color: green;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #262525;
+  padding: 50px;
+  border: 1px solid;
+}
